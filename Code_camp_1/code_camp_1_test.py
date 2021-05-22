@@ -4,6 +4,12 @@ from code_camp_1 import isSubsetSum
 
 class SubsetSum(unittest.TestCase):
 
+	def setUp(self):
+		pass
+
+	def tearDown(self):
+		pass
+
 	def test_subset_0(self):
 		self.assertEqual(isSubsetSum([], 0, 10), -1)
 
